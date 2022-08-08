@@ -15,6 +15,6 @@ The time series is then transformed into log-space in "x_prices" which it it is 
 
 The function trendline() then finds a trend using standard moving average techniques (see Physica A: Statistical Mechanics and its ApplicationsVolume 587, 2022, 126487)
 
-After removing the trend within the assumptions of the Black-Scholes model we have a pure Wiener motion for which we find the implied volatility in the function implied_volatility()
+After removing the trend, within the assumptions of the Black-Scholes model the remaining time series is a pure Wiener proces without drift. The corresponding volatility is computed in the function implied_volatility()
 
 Repeating this for multiple ticker symbols yields the bar chart as a final outcome.
