@@ -2,6 +2,7 @@
 In this project we compute the implied stock volatility of all the companies of the S&P500 based on historical data
 
 main script file (run this) : stock_analysis.py
+
 necessary files (add to the same folder): function_file.py (contains all the functions), sp500_companies.cvs (contains symbols of all S&P500 companies as of 2022)
 
 The code makes an API call to AlphaVantage's free historical stock data for which it uses the sp500_companies.cvs to automatically run it for N largest companies.
