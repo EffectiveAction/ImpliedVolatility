@@ -11,7 +11,7 @@ For each company, the daily stock price at close is imported using import_series
 NOTE: In the current version of the code, stock splits within this period have to be exempted manually as is done here with GOOGL.
 
 
-The time series is then transformed into log-space in "x_prices" which it it is assumed to behave according to a Geometric Brownian Motion.
+The time series is then transformed into log-space in "x_prices" which is assumed to behave according to a Geometric Brownian Motion.
 
 The function trendline() then finds a trend using standard moving average techniques (see Physica A: Statistical Mechanics and its ApplicationsVolume 587, 2022, 126487)
 
